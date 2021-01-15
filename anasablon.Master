@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Ogani Template">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/foundationdif.min.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/styledif.css" type="text/css">
+    <link rel="stylesheet" href="css/stylersa.css" type="text/css">
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="header__logo">
+                        <a href="default.aspx"><img src="img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="header__menu">
+                        <ul>
+                            <li class="active"><a href="default.aspx">ANASAYFA</a></li>
+                            <li><a href="./contact.html">BİZE ULAŞIN</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="humberger__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="hero__categories">
+                        <div class="hero__categories__all">
+                            <i class="fa fa-bars"></i>
+                            <span>Algoritmalar</span>
+                        </div>
+                        <ul>
+                            <li><a href="6asal.aspx">Aralarında Asallık Testi</a></li>
+                            <li><a href="1mod.aspx">Yüksek Mertebeli Mod</a></li>
+                            <li><a href="12modters.aspx">Modun Çarpmaya Göre Tersi</a></li>
+                            <li><a href="2sezar.aspx">Sezar Şifreleme</a></li>
+                            <li><a href="3affine.aspx">Affine Şifreleme</a></li>
+                            <li><a href="4des.aspx">DES Algoritması</a></li>
+                            <li><a href="5trides.aspx">3-DES Algoritması</a></li>
+                            <li><a href="7aes.aspx">AES Algoritması</a></li>
+                            <li><a href="8rsa.aspx">RSA</a></li>
+                            <li><a href="10diffiehellman.aspx">Diffie - Hellman</a></li>
+                            <li><a href="11elgamal.aspx">El Gamal</a></li>
+                            <li><a href="9eliptikegri.aspx">Eliptik Eğri</a></li>
+                            <li><a href="13dijitalimza.aspx">Dijital İmzalar</a></li>
+                            <li><a href="14hash.aspx">Hash Algoritmaları</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-lg-offset-1">
+                    <asp:ContentPlaceHolder ID="AnaKodDizini" runat="server"></asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <section class="featured spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h3>KriptoluYorum Nedir?</h3>
+                        <br>
+                        <hr>
+                        <p>
+                            Bilgisayar Mühendisliği öğrencileri olarak kriptoloji dersi alan bizim
+                            gibi her öğrenciye fayda sağlayacak nitelikte bir simülasyon kurduk   
+                            daha da iyileştirmeyi planladığımız busimülasyonda birçok öğrencinin 
+                            şifre örneği çözdüğü sırada yanlış hesaplar yapabildiğini veya çözümün
+                            yarısında vazgeçebildiğini analiz ettik umarız ki yaptığımız bu 
+                            simülasyonda (biz bile dahil) öğrencilerin istediği şifreleme tekniğiyle
+                            istediği kadar çözüm yapabilmesi olur başarılarınızın devamını dilerim 
+                            (Bektaş Kılıç & Salih Buhari Baş)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <section class="from-blog spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title from-blog__title">
+                        <h3>Sakarya Üniversitesi Kriptoloji Dersi</h3>
+                        <br>
+                        <hr>
+                        <p>
+                            öncelikle bu simülasyonu kurma isteğim dersi 1 yıl öncesinde almış 
+                            birisi olarak hocamızın verdiği projenin algoritma yazımının benim
+                            için çok faydalı ve eğlenceli olması ama, malesef sadece İlgilizce
+                            ve Hintçe kaynak bulunması beni bu simülasyonu yazmaya teşvik 
+                            etmiştir (Bektaş Kılıç)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+    <!-- ////////////////////////////            FOOTER               /////////////////////////// -->
+    <footer class="footer spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">                        
+                        <ul>
+                            <li>Adres: Sakarya Üniversitesi, Sakarya</li>
+                            <li>Mobil: +90 539 878 57 46</li>
+                            <li>Email: klcbektas@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+                    <div class="footer__widget">
+                        <h6>Useful Links</h6>
+                        <ul>
+                            <li><a href="#">Hakkımızda</a></li>
+                            <li><a href="#">Firma Hakkında</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Biz Kimiz?</a></li>
+                            <li><a href="#">Servis Noktalarımız</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="footer__widget">
+                        <form action="#">
+                            <input type="text" placeholder="lütfen mail adresinizi girin">
+                            <button type="submit" class="site-btn">Gönder</button>
+                        </form>
+                        <div class="footer__widget__social">
+                            <a href="https://www.facebook.com/kilic.bektas/"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/kilicbektas/?hl=tr"><i class="fa fa-instagram"></i></a>
+                            <a href="https://twitter.com/KilicBektas"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ////////////////////////////        FOOTER END              /////////////////////////// -->
+
+
+
+    <!--///////////           Js //////////////////////-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <!--///////////           Js //////////////////////-->
+
+</body>
+
+</html>
+
+<asp:ContentPlaceHolder ID="javascript" runat="server"></asp:ContentPlaceHolder>
